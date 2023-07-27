@@ -1,5 +1,5 @@
 # Use the official Cypress image with Chrome and Node.js
-FROM cypress/browsers:node16.16.0-chrome107-ff107-edge
+FROM cypress/included:latest
 
 # Set the working directory inside the container
 WORKDIR /app
