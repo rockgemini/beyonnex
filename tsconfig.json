@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "types": ["cypress"],
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
